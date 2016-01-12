@@ -46,24 +46,13 @@ body {
 }
 
 .top-sticker-inner {
-    background: none repeat scroll 0 0 #75b5aa !important;
+    background: none repeat scroll 0 0 #d9f0ec !important;
 }
 
 #breadcrumbs LI:hover, A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
     background-color: transparent !important;
     color: #ffdea5 !important;
 }
-
-#breadcrumbs LI A:hover, #crumbs LI A:focus {
-    background-color: transparent !important;
-    color: #ffdea5 !important;
-}
-
-
-#breadcrumbs LI A:link, #breadcrumbs LI A:visited {
-    color: #fff !important;
-}
-
 
 #breadcrumbs {
     color: #fff !important;
