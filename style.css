@@ -55,7 +55,7 @@ body {
 }
 
 #breadcrumbs LI A:link, #breadcrumbs LI A:visted {
-    color: #fff;
+    color: #fff !important;
 }
 
 
