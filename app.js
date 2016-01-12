@@ -15,6 +15,21 @@ document.observe("dom:loaded", function () {
     // Click logo, go home.
     $$('div.logo')[0].on('click', function(){ location = '/'; });
     
-    var webFontLoader = require('webfont-loader');
-    webFontLoader('My Font Family', {src: ['http://fonts.googleapis.com/css?family=Lato:400']});
+    (function() {
+       var wf = document.createElement('script');
+       wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+           '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+       wf.type = 'text/javascript';
+       wf.async = 'true';
+       var s = document.getElementsByTagName('script')[0];
+       s.parentNode.insertBefore(wf, s);
+     })();
+    
+    WebFont.load({
+    google: {
+      families: ['Lato']
+    }
+    });
+
+    
 });
