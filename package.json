@@ -22,6 +22,7 @@
     "grunt-contrib-cssmin": "~0.6.1",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-rev": "~0.1.0",
-    "grunt-contrib-jshint": "~0.6.4"
+    "grunt-contrib-jshint": "~0.6.4",
+    "webfont-loader": "~1.0.0"
   }
 }

@@ -21,8 +21,7 @@ module.exports = function(grunt) {
                 files : [
                     {
                         src  : [
-                            'app.js',
-                            'style.css'
+                            'FLIMfit-logo-white.png'
                         ],
                         dest : 'build/'
                     }
@@ -61,7 +60,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean', 'uglify', 'cssmin','jshint']);
+    grunt.registerTask('default', ['clean', 'uglify', 'cssmin', 'jshint', 'copy']);
 
 
 };

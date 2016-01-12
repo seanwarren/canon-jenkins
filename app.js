@@ -14,4 +14,7 @@ document.observe("dom:loaded", function () {
     }
     // Click logo, go home.
     $$('div.logo')[0].on('click', function(){ location = '/'; });
+    
+    var webFontLoader = require('webfont-loader');
+    webFontLoader('My Font Family', {src: ['http://fonts.googleapis.com/css?family=Lato:400']});
 });
