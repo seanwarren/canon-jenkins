@@ -51,11 +51,11 @@ body {
 
 #breadcrumbs LI:hover, A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
     background-color: transparent !important;
-    color: #333 !important;
+    color: #ffdea5 !important;
 }
 
 #breadcrumbs LI A:link, #breadcrumbs LI A:visted {
-    color: #ffdea5;
+    color: #fff;
 }
 
 
