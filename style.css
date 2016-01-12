@@ -54,6 +54,11 @@ body {
     color: #333 !important;
 }
 
+#breadcrumbs LI A:link, #breadcrumbs LI A:visted {
+    color: #ffdea5;
+}
+
+
 #breadcrumbs {
     color: #fff !important;
     text-decoration: none;
