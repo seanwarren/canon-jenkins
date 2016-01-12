@@ -46,8 +46,7 @@ body {
 }
 
 .top-sticker-inner {
-    background: none repeat scroll 0 0 #FFFFFF !important;
-    box-shadow: #c2c2c2 0 3px 8px 1px;
+    background: none repeat scroll 0 0 #75b5aa !important;
 }
 
 #breadcrumbs LI:hover, A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
@@ -56,9 +55,8 @@ body {
 }
 
 #breadcrumbs {
-    color: #888 !important;
+    color: #fff !important;
     text-decoration: none;
-    text-shadow: 0 1px #fff;
 }
 
 table.pane tr:nth-child(odd) td {
