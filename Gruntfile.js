@@ -7,7 +7,7 @@ module.exports = function(grunt) {
             options: {
                 //banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
                 mangle : true,
-                compress : true,
+                compress : {},
                 report: 'min'
             },
             build : {
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean', 'uglify', 'cssmin','rev','jshint']);
+    grunt.registerTask('default', ['clean', 'uglify', 'cssmin','jshint']);
 
 
 };
