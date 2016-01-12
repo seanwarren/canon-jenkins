@@ -54,7 +54,13 @@ body {
     color: #ffdea5 !important;
 }
 
-#breadcrumbs LI A:link, #breadcrumbs LI A:visted {
+#breadcrumbs LI A:hover, #crumbs LI A:focus {
+    background-color: transparent !important;
+    color: #ffdea5 !important;
+}
+
+
+#breadcrumbs LI A:link, #breadcrumbs LI A:visited {
     color: #fff !important;
 }
 
